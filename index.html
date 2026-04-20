@@ -558,7 +558,13 @@
       border-radius: 1.25rem;
       overflow: hidden;
       transition: transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
     }
+
+    .trabajo-card .trabajo-body { order: 1; }
+    .trabajo-card .trabajo-imgs { order: 2; }
+    .trabajo-card .trabajo-link-wrap { order: 3; padding: 0 1.75rem 1.75rem; }
 
     .trabajo-card:hover {
       transform: translateY(-4px);
@@ -692,6 +698,7 @@
         <div class="hero-cta">
           <a href="#contacto" class="btn-primary">Hablemos de tu proyecto</a>
           <a href="#servicios" class="btn-secondary">Ver servicios</a>
+          <a href="#trabajos" class="btn-secondary">Ver trabajos</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -828,10 +835,11 @@
               de Buenos Aires.
             </p>
             <!-- Para ocultar el botón, agregá style="display:none" -->
-            <a href="https://www.youtube.com/watch?v=ZFjBHMCNNWg" target="_blank" class="trabajo-link">
-              ▶ Ver en YouTube
-            </a>
+            
           </div>
+          <div class="trabajo-link-wrap"><a href="https://www.youtube.com/watch?v=ZFjBHMCNNWg" target="_blank" class="trabajo-link">
+              ▶ Ver en YouTube
+            </a></div>
         </div>
         <!-- FIN TRABAJO 1 -->
 
@@ -856,10 +864,11 @@
               del pórtico Free Flow en la Autopista 25 de Mayo para AUSA. Operé el drone 
               y realicé un hyperlapse de 7 minutos alrededor de la obra.
             </p>
-            <a href="https://www.instagram.com/p/DUjZrQFkuhf/" target="_blank" class="trabajo-link">
-              ▶ Ver en Instagram
-            </a>
+            
           </div>
+          <div class="trabajo-link-wrap"><a href="https://www.instagram.com/p/DUjZrQFkuhf/" target="_blank" class="trabajo-link">
+              ▶ Ver en Instagram
+            </a></div>
         </div>
         <!-- FIN TRABAJO 2 -->
 
@@ -884,10 +893,11 @@
               Ernesto Samandjian. Escribí el guion, participé en la dirección y realicé el 
               montaje final incluyendo la edición de la banda sonora.
             </p>
-            <a href="https://www.youtube.com/watch?v=mpNqZJRE5Z4" target="_blank" class="trabajo-link">
-              ▶ Ver en YouTube
-            </a>
+            
           </div>
+          <div class="trabajo-link-wrap"><a href="https://www.youtube.com/watch?v=mpNqZJRE5Z4" target="_blank" class="trabajo-link">
+              ▶ Ver en YouTube
+            </a></div>
         </div>
         <!-- FIN TRABAJO 3 -->
 
